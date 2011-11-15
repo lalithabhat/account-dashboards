@@ -5,14 +5,6 @@
     <description>Account Dashboards show your reps the Account information that is important to them, right on the Account record in Salesforce, where they want it.</description>
     <namespacePrefix>acctDash</namespacePrefix>
     <types>
-        <members>AccountDashboardsController</members>
-        <members>AccountDashboardsTest</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>AccountClosedSalesAmountMoM</members>
-        <members>AccountClosedSalesAmountYoY</members>
-        <members>SalesAmountByProduct</members>
         <members>SalesQuantityByProduct</members>
         <name>ApexPage</name>
     </types>

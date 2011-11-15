@@ -25,7 +25,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-By: Chris Kemp <ckemp@salesforce.com> and Sandy Jones <sajones@salesforce.com>
+By: Chris Kemp <ckemp@salesforce.com>
 */
 
 public with sharing class AccountDashboardsController {
@@ -161,7 +161,7 @@ public with sharing class AccountDashboardsController {
         return resultJS;
     }
     
-    // Controller to generate the data for the "Sales Amount by Product" chart
+    // Controller to generate the data for the "Sales Amount by Product Family" chart
     public String getSalesAmountByProduct() {
         String id = this.acct.Id;
         String result = '';
@@ -195,7 +195,7 @@ public with sharing class AccountDashboardsController {
         return result;
     }
 
-    // Controller to generate the data for the "Sales Quantity by Product" chart
+    // Controller to generate the data for the "Sales Quantity by Product Family" chart
     public String getSalesQuantityByProduct() {
         String id = this.acct.Id;
         String result = '';

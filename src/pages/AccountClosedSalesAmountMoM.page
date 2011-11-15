@@ -1,5 +1,4 @@
 <apex:page standardcontroller="Account" extensions="AccountDashboardsController" showheader="false">
-   <!-- Raw Data: <apex:outputText value="{!closedSalesAmountMoM}"></apex:outputText> -->
 
 <html>
   <head>

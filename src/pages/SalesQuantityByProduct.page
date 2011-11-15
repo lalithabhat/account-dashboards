@@ -15,13 +15,12 @@
         <apex:outputText value="{!salesQuantityByProduct}" />
 
         var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-                chart.draw(data, {width: 400, height: 200, title: 'Sales Quanity by Product'});
+                chart.draw(data, {width: 400, height: 200, title: 'Sales Quantity by Product Family'});
         }
  </script>
   </head>
 
   <body>
-<!--<pre><apex:outputText value="{!salesQuantityByProduct}"></apex:outputText></pre>-->
 
     <div id="chart_div"></div>
   </body>
